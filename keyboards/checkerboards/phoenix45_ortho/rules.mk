@@ -21,3 +21,4 @@ ENCODER_ENABLE = yes	    # Encoder enable
 # Disable unsupported hardware
 AUDIO_SUPPORTED = no
 BACKLIGHT_SUPPORTED = no
+

@@ -63,4 +63,4 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 }
 
 
-#define LAYOUT LAYOUT_planck_mit
+#define LAYOUT LAYOUT_ortho_4x12

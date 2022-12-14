@@ -1,4 +1,4 @@
-/* Copyright 2021 Nathan Spears
+/* Copyright 2021 kb-elmo<mail@elmo.space>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -14,16 +14,4 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include "phoenix45_ortho.h"
-
-// bool encoder_update_kb(uint8_t index, bool clockwise) {
-//     if (!encoder_update_user(index, clockwise)) { return false; }
-//     if (index == 0) {
-//         if (clockwise) {
-//             tap_code_delay(KC_VOLD, 10);
-//         } else {
-//             tap_code_delay(KC_VOLU, 10);
-//         }
-//     }
-//     return true;
-// }
+#include "qez.h"

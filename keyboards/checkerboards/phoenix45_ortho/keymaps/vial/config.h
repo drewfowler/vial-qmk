@@ -13,17 +13,13 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
+/* SPDX-License-Identifier: GPL-2.0-or-later */
 
-#include "phoenix45_ortho.h"
+#pragma once
 
-// bool encoder_update_kb(uint8_t index, bool clockwise) {
-//     if (!encoder_update_user(index, clockwise)) { return false; }
-//     if (index == 0) {
-//         if (clockwise) {
-//             tap_code_delay(KC_VOLD, 10);
-//         } else {
-//             tap_code_delay(KC_VOLU, 10);
-//         }
-//     }
-//     return true;
-// }
+// #define TAPPING_TOGGLE 2
+#define VIAL_KEYBOARD_UID \
+    { 0xF5, 0xD2, 0x9E, 0x35, 0xD6, 0x5D, 0x96, 0x98 }
+
+#define VIAL_COMBO_ENTRIES 12
+
