@@ -16,9 +16,6 @@
 
 #include QMK_KEYBOARD_H
 
-// Defines for task manager and such
-#define CALTDEL LCTL(LALT(KC_DEL))
-#define TSKMGR LCTL(LSFT(KC_ESC))
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
@@ -33,7 +30,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_TILD, KC_EXLM, KC_AT,   KC_HASH, KC_DLR,  KC_PERC, _______, KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN, KC_BSPC,
       KC_SLSH, KC_1,    KC_2,    KC_3,    KC_4,    KC_5,    _______, KC_6,    KC_7,    KC_8,    KC_9,    KC_0,    KC_BSLS,
       _______, _______, _______, _______, _______, _______, _______, _______, KC_PPLS, KC_EQL,  _______, _______, _______,
-      KC_ESC,  CALTDEL, TSKMGR,                   _______,                    _______,          KC_NUBS, KC_GRV,  _______
+      KC_ESC,  KC_DOT, KC_DOT,                   _______,                    _______,          KC_NUBS, KC_GRV,  _______
   ),
 
   [2] = LAYOUT_ortho_2x3u(

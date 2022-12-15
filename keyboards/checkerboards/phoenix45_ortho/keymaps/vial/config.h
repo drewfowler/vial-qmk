@@ -21,5 +21,11 @@
 #define VIAL_KEYBOARD_UID \
     { 0xF5, 0xD2, 0x9E, 0x35, 0xD6, 0x5D, 0x96, 0x98 }
 
-#define VIAL_COMBO_ENTRIES 12
+#define DYNAMIC_KEYMAP_LAYER_COUNT 4
+#define VIAL_COMBO_ENTRIES 8
 
+// top left + top right keys
+#define VIAL_UNLOCK_COMBO_ROWS \
+    { 0, 0 }
+#define VIAL_UNLOCK_COMBO_COLS \
+    { 0, 11 }
